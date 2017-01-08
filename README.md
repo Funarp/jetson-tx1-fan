@@ -7,7 +7,7 @@ $ sudo cp fan.pl /usr/local/bin/fan
 $ sudo chmod +x /usr/local/bin/fan
 ```
 
-Then edit `/etc/rc.local`, add those lines
+Then edit `/etc/rc.local`, add these lines
 
 ```
 if [ -x /usr/local/bin/fan ] ; then
